@@ -1,0 +1,31 @@
+manifest_version: 2
+type: DCM_PROJECT
+
+default_target: DEV
+
+targets:
+  DEV:
+    account_identifier: ALTVLMM-KN96637
+    project_name: DCM_LEARNING.TEST.NEW_DCM_PROJECT
+    project_owner: ACCOUNTADMIN
+    templating_config: DEV
+  PROD_SIM:
+    account_identifier: ALTVLMM-KN96637
+    project_name: DCM_LEARNING.TEST.DCM_PROJECT_PROD_SIM
+    project_owner: ACCOUNTADMIN
+    templating_config: PROD_SIM
+
+templating:
+  defaults:
+    project_owner_role: "ACCOUNTADMIN"
+    wh_size: "SMALL"
+  configurations:
+    DEV:
+      env_suffix: "_NEW_DCM_PROJECT"
+      teams:
+        - name: "SAMPLE_TEAM"
+          data_retention_days: 1
+          add_employees: TRUE
+    PROD_SIM:
+      env_suffix: "_prod_sim"
+      wh_size: "XSMALL"
