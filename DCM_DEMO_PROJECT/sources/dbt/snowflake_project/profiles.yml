@@ -1,23 +1,23 @@
 snowflake_project:
   outputs:
     dev:
-      account: ALTVLMM-KN96637
+      account: SPFCYWD-PG15535
       database: DCM_LEARNING
       password: Raghav@22022004
       role: dbt_dev_role
       schema: TEST
       threads: 5
       type: snowflake
-      user: RAGHAVV
+      user: RAGHAVNEW
       warehouse: COMPUTE_WH
     prod:
-      account: ALTVLMM-KN96637
+      account: SPFCYWD-PG15535
       database: DCM_LEARNING
       password: Raghav@22022004
       role: dbt_prod_role
       schema: PROD
       threads: 5
       type: snowflake
-      user: RAGHAVV
+      user: RAGHAVNEW
       warehouse: COMPUTE_WH
   target: dev

@@ -26,10 +26,10 @@ GRANT SELECT ON TABLE DCM_LEARNING.rbac_lab.project_data TO ROLE rbac_lab_reader
 GRANT USAGE ON DATABASE DCM_LEARNING TO ROLE rbac_lab_admin;
 
 -- Prove the access boundary
-GRANT ROLE rbac_lab_reader TO USER RAGHAVV;
+GRANT ROLE rbac_lab_reader TO USER RAGHAVNEW;
 
 -- Prove MANAGE GRANTS delegation actually works
-GRANT ROLE rbac_lab_admin TO USER RAGHAVV;
+GRANT ROLE rbac_lab_admin TO USER RAGHAVNEW;
 --Deliberately revoke  GRANT access (Go to worksheet sql)
 
 --Next to prove one owner one grant conflict Copy paste the same grant code to some other dcm project it will fail taking the same line number 17 grant command

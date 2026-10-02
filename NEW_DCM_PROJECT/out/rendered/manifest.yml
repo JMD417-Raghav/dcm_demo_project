@@ -5,12 +5,12 @@ default_target: DEV
 
 targets:
   DEV:
-    account_identifier: ALTVLMM-KN96637
+    account_identifier: SPFCYWD-PG15535
     project_name: DCM_LEARNING.TEST.NEW_DCM_PROJECT
     project_owner: ACCOUNTADMIN
     templating_config: DEV
   PROD_SIM:
-    account_identifier: ALTVLMM-KN96637
+    account_identifier: SPFCYWD-PG15535
     project_name: DCM_LEARNING.TEST.DCM_PROJECT_PROD_SIM
     project_owner: ACCOUNTADMIN
     templating_config: PROD_SIM

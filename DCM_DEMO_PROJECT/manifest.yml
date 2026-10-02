@@ -3,12 +3,12 @@ type: DCM_PROJECT
 default_target: DEV
 targets:
   DEV:
-    account_identifier: ALTVLMM-KN96637
+    account_identifier: SPFCYWD-PG15535
     project_name: DCM_LEARNING.PROJECTS.DCM_PROJECT_DEMO
     project_owner: ACCOUNTADMIN
     templating_config: DEV
   PROD:
-    account_identifier: ALTVLMM-KN96637
+    account_identifier: SPFCYWD-PG15535
     project_name: DCM_LEARNING.PROJECTS.DCM_PROJECT_DEMO_PROD
     project_owner: ACCOUNTADMIN
     templating_config: PROD
@@ -17,5 +17,7 @@ templating:
   configurations:
     DEV:
       schema_name: "TEST"
+      env_suffix: "dev"
     PROD:
       schema_name: "PROD"
+      env_suffix: "prod"
